@@ -1,4 +1,4 @@
 # Home-Credit-Default-Risk
 ___
 kaggle competition
-<img src="https://user-images.githubusercontent.com/67913569/127853093-b8797cbb-2508-420c-b37c-6940e0e7c61f.png"  width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/67913569/127853093-b8797cbb-2508-420c-b37c-6940e0e7c61f.png"  width="400" height="800"/>
