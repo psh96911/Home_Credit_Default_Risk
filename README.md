@@ -4,7 +4,6 @@
 * 캐글 Advanced 머신러닝 실전 박치기(권철민) 강의를 참고하였습니다
 
 
-
 ## Description
 
 개인 대출 고객이 채무를 이행할지 여부를 예측하는 Competition
