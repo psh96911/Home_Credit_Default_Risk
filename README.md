@@ -31,3 +31,17 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
   - 인코딩(Encoding): 레이블 인코딩, 원핫 인코딩
   - 결측치(Null값)/이상치(Outlier) 치환: 
   - Skew 데이터 세트 보정: 오버/언더 Sampling
+
+* 업무적으로 중요한 feature 들의 재 결합 및 재 가공
+  - 중요도가 높은 feature들에 대해서 재 가공
+  - 주요 컬럼 끼리 차 또는 합, 비율 등을 재 가공
+  - 주요 컬럼 및 가공 컬럼들에 대한 다양한 aggregation 적용
+  - 업무적으로 의미 있는 컬럼 재 생산
+
+* 최근 데이터, Active인 데이터 위주 필터링 후 데이터 가공
+  - 시계열성 데이터의 경우 오래전 데이터 보다는 최근 데이터를 기반으로 별도의 재 가공 적용
+  - 업무적으로 여전히 유효한 최근 데이터를 필터링하여 재 가공  
+
+
+
+
