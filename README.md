@@ -1,7 +1,7 @@
 # Home Credit Default Risk
 
+###개인 대출 고객이 채무를 이행할지 여부를 예측하는 Competition
 ![image](https://user-images.githubusercontent.com/67913569/127973500-14408130-6566-466e-b26b-39dff02f0e8e.png)
-개인 대출 고객이 채무를 이행할지 여부를 예측하는 Competition
 
 
 ### Data
