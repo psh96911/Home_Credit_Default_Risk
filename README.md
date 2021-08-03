@@ -23,4 +23,11 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
 
 ![image](https://user-images.githubusercontent.com/67913569/127975670-b2af66df-4bc0-4a5e-877f-72448a29daaf.png)
 
+## Feature Engineering
 
+* 기본 feature engineering
+  - 스케일링(Scaling): StandardScaler, MinMaxScaler
+  - 변환(Transformation): 로그 변환(Log Transformation), Polynomial 피처 변환, PCA 변환
+  - 인코딩(Encoding): 레이블 인코딩, 원핫 인코딩
+  - 결측치(Null값)/이상치(Outlier) 치환: 
+  - Skew 데이터 세트 보정: 오버/언더 Sampling
