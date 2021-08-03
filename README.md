@@ -46,6 +46,7 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
 ## Modeling
 
 * XGBoost & LightGBM
+  
   - Tree기반 Gradient Boosting 방식 알고리즘이 모델 성능의 우수성은 인정되나 학습 시간이 너무 오래 걸리는 문제가 존재
   - XGBoost가 2016년에 발표된 이후 더욱 Gradient Boosting 방식이 인기를 얻게 됨. 
   - XGBoost의 경우 모델 성능은 물론이고 병렬 학습이 가능하여 기존 방식 보다 학습 시간을 대폭 단축
