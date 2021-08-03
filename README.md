@@ -52,7 +52,7 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
   - XGBoost의 경우 모델 성능은 물론이고 병렬 학습이 가능하여 기존 방식 보다 학습 시간을 대폭 단축
   - 하지만  XGBoost 도 대용량 데이터에 대해서는 학습 시간이 오래 걸림 
   - LightGBM은 모델의 성능은 물론이고 모델 학습 시간을 대폭 향상 시키기 위해 개발된 방식
-  - 대용량 데이터에 최적화 모델을 만들기 위해  반복적인 Feature Engineering과 하이퍼 파라미터 튜닝을 수행해야 하므로 많은 시간이 필요함. 때문에 학습 시간을 대폭 단축해주는 LightGBM이 상대적으     로 많이 활용됨
+  - 대용량 데이터에 최적화 모델을 만들기 위해  반복적인 Feature Engineering과 하이퍼 파라미터 튜닝을 수행해야 하므로 많은 시간이 필요함. 때문에 학습 시간을 대폭 단축해주는 LightGBM이 상대적으로 많이 활용됨
 
 
 
