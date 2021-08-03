@@ -54,6 +54,13 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
   - LightGBM은 모델의 성능은 물론이고 모델 학습 시간을 대폭 향상 시키기 위해 개발된 방식
   - 대용량 데이터에 최적화 모델을 만들기 위해 반복적인 Feature Engineering과 하이퍼 파라미터 튜닝을 수행해야 하므로 많은 시간이 필요하기 때문에 학습 시간을 대폭 단축해주는 LightGBM이 상대적으로 많이 활용됨
 
+## Hyper Parameter Tuning
+
+* Bayesian Optimization을 통한 최적화
+  
+  - Bayesian optimization은 미지의 함수가 반환하는 값의 최대값을 매우 짧은 반복을 통해서 찾아내는 최적화 방식
+  - Bayesian optimization은 Gaussian process를 통해 함수의 사후 분포(posterior distribution)을 생성하고 이를 기반으로 최적화 하려는 함수를 재 구성
+  - 점차 많은 입력 값을 받아서 수행하면서 사후 분포가 점점 개선 되고, 함수 반환 값을 최대(최소)되는 입력 파라미터 영역을 보다 확실하게 찾게됨
 
 
 
