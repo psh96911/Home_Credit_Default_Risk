@@ -1,7 +1,7 @@
 # Home Credit Default Risk
 
 * 캐글 Home Credit Default Risk 대회의 연습용 Repository입니다
-* 권철민 선생님의 캐글 Advanced 머신러닝 실전 박치기 강의를 참고하였습니다
+* 캐글 Advanced 머신러닝 실전 박치기(권철민) 강의를 참고하였습니다
 
 
 ## Description
