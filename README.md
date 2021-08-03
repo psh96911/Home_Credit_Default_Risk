@@ -66,7 +66,7 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
 
 | 트리구조 | 샘플링 비율 | 손실함수 규제 | Feature histogram |
 |:---:|:---:|:---:|:---:|
-| max_depth, num_leaves, min_child_samples, min_child_weight | subsample, colsample_bytree | reg_lambda, reg_alpha | max_bin |
+| max_depth   num_leaves, min_child_samples, min_child_weight | subsample, colsample_bytree | reg_lambda, reg_alpha | max_bin |
 
 ## OOF(Out of Fold) Prediction
 
