@@ -14,3 +14,10 @@
 
 <img src="https://user-images.githubusercontent.com/67913569/127853093-b8797cbb-2508-420c-b37c-6940e0e7c61f.png">
 
+## Metric: ROC AUC
+
+Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target
+
+![image](https://user-images.githubusercontent.com/67913569/127975670-b2af66df-4bc0-4a5e-877f-72448a29daaf.png)
+
+
