@@ -48,14 +48,16 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
 
 ## Modeling
 
-* XGBoost & LightGBM
+* LightGBM
   
-  - Tree기반 Gradient Boosting 방식 알고리즘이 모델 성능의 우수성은 인정되나 학습 시간이 너무 오래 걸리는 문제가 존재
-  - XGBoost가 2016년에 발표된 이후 더욱 Gradient Boosting 방식이 인기를 얻게 됨 
-  - XGBoost의 경우 모델 성능은 물론이고 병렬 학습이 가능하여 기존 방식 보다 학습 시간을 대폭 단축
-  - 하지만  XGBoost 도 대용량 데이터에 대해서는 학습 시간이 오래 걸림 
-  - LightGBM은 모델의 성능은 물론이고 모델 학습 시간을 대폭 향상 시키기 위해 개발된 방식
-  - 대용량 데이터에 최적화 모델을 만들기 위해 반복적인 Feature Engineering과 하이퍼 파라미터 튜닝을 수행해야 하므로 많은 시간이 필요하기 때문에 학습 시간을 대폭 단축해주는 LightGBM이 상대적으로 많이 활용됨
+  - LightGBM은 Leaf-wise 방식으로 Tree를 생성하므로 보다 빠르게 Tree 생성을 할 수 있음. 
+  - 하지만 Leaf-wise방식은 Level-wise방식보다 더 overfitting하기 쉬움(모델 성능이 떨어지기 쉬움)
+  - 이런 단점을 다양한 내부 하이퍼 파라미터와 구현 기술로 극복하면서 XGBoost 대비 학습 시간은 4배 이상 빠르지만, 모델 성능은 거의 대등한 성능을 나타냄
+  - 특히 feature 개수가 수백~수천개가 되어도 성능이 크게 저하되지 않고 뛰어난 성능을 여전히 나타냄
+
+![image](https://user-images.githubusercontent.com/67913569/128003480-b9956744-9483-451a-9e27-b58ad7be0863.png)
+
+
 
 ## Hyper Parameter Tuning
 
