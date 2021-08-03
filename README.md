@@ -1,5 +1,6 @@
 # Home Credit Default Risk
 
+
 ## Description
 
 개인 대출 고객이 채무를 이행할지 여부를 예측하는 Competition
@@ -41,6 +42,17 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
 * 최근 데이터, Active인 데이터 위주 필터링 후 데이터 가공
   - 시계열성 데이터의 경우 오래전 데이터 보다는 최근 데이터를 기반으로 별도의 재 가공 적용
   - 업무적으로 여전히 유효한 최근 데이터를 필터링하여 재 가공  
+
+## Modeling
+
+* XGBoost & LightGBM
+  - Tree기반 Gradient Boosting 방식 알고리즘이 모델 성능의 우수성은 인정되나 학습 시간이 너무 오래 걸리는 문제가 존재
+  - XGBoost가 2016년에 발표된 이후 더욱 Gradient Boosting 방식이 인기를 얻게 됨. 
+  - XGBoost의 경우 모델 성능은 물론이고 병렬 학습이 가능하여 기존 방식 보다 학습 시간을 대폭 단축
+  - 하지만  XGBoost 도 대용량 데이터에 대해서는 학습 시간이 오래 걸림 
+  - LightGBM은 모델의 성능은 물론이고 모델 학습 시간을 대폭 향상 시키기 위해 개발된 방식
+  - 대용량 데이터에 최적화 모델을 만들기 위해  반복적인 Feature Engineering과 하이퍼 파라미터 튜닝을 수행해야 하므로 많은 시간이 필요함. 때문에 학습 시간을 대폭 단축해주는 LightGBM이 상대적으     로 많이 활용됨
+
 
 
 
