@@ -62,6 +62,9 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
   - Bayesian optimization은 Gaussian process를 통해 함수의 사후 분포(posterior distribution)을 생성하고 이를 기반으로 최적화 하려는 함수를 재 구성
   - 점차 많은 입력 값을 받아서 수행하면서 사후 분포가 점점 개선 되고, 함수 반환 값을 최대(최소)되는 입력 파라미터 영역을 보다 확실하게 찾게됨
 
+## OOF(Out of Fold) Prediction
+
+![image](https://user-images.githubusercontent.com/67913569/128001582-2d29ac95-bf4b-4250-99c6-64d7d67fe394.png)
 
 
 
